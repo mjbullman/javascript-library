@@ -1,3 +1,33 @@
-.ide
-/dist
-/node_modules
+# node modules
+node_modules/
+
+# build output
+dist/
+build/
+out/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment files
+.env
+.env.*.local
+
+# os specific files
+.DS_Store
+Thumbs.db
+
+# editor specific files
+.idea/
+.vscode/
+*.swp
+
+# test coverage
+coverage/
+
+# temporary files
+tmp/
+temp/
