@@ -1,0 +1,43 @@
+{
+  "name": "typescript-library",
+  "version": "1.0.0",
+  "description": "Martin Bullman Typescript library. Contains code I reuse on multiple projects. ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "test:watch": "vitest watch",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjbullman/javascript-library.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Javascript"
+  ],
+  "author": "Martin Bullman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjbullman/javascript-library/issues"
+  },
+  "homepage": "https://github.com/mjbullman/javascript-library#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@eslint/json": "^0.13.1",
+    "@types/node": "^24.2.1",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.3.0",
+    "jiti": "^2.5.1",
+    "prettier": "^3.6.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.39.0",
+    "vitest": "^3.2.4"
+  }
+}
