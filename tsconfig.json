@@ -2,17 +2,23 @@
     "compilerOptions": {
         "target": "ESNext",
         "module": "ESNext",
-        "moduleResolution": "Node",
+        "moduleResolution": "node",
         "declaration": true,
         "emitDeclarationOnly": true,
-        "outDir": "dist",
+        
+        /* Output */
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "sourceMap": true,
+
         "strict": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
-        "baseUrl": "./",
+        "baseUrl": ".",
         "paths": {
             "@/*": ["*"]
         }
     },
-    "include": ["src"]
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
 }
