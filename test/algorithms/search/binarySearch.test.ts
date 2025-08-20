@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { binarySearch } from '../../../src/algorithms/sorting/search'
+import { binarySearch } from '@/src/algorithms/search/binarySearch'
 
 describe('Binary Search Tests', () => {
     test('Finds element in middle', () => {
