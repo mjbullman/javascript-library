@@ -1,4 +1,4 @@
-import { test, expect, describe } from 'vitest'
+import { describe, expect, test } from 'vitest'
 import { linearSearch } from '@/src/algorithms/search/linearSearch'
 
 describe('Linear Search Test', () => {  
@@ -31,7 +31,7 @@ describe('Linear Search Test', () => {
         expect(linearSearch(value, array)).to.equal(-1)
     })
 
-   test('Find string item in the middle of the array', () => {
+    test('Find string item in the middle of the array', () => {
         const array = ['a','b','c','d']
         const value = 'd'
 
