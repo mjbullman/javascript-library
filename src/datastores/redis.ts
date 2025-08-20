@@ -55,7 +55,7 @@ export class RedisClient {
      * General Methods.
      */
     public async set(key: string, value: any, ttl?: number, nx?: boolean) {
-        let options: any = {}
+        const options: any = {}
 
         if (ttl !== undefined) {
             options.EX = ttl

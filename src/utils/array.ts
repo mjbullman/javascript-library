@@ -6,7 +6,7 @@
  * @returns A new array containing sub-arrays of up to `size` elements each.
  */
 export function chunk<T>(array: T[], size: number): T[][] {
-    let chunked_array: T[][] = []
+    const chunked_array: T[][] = []
 
     for (let i = 0; i < array.length; i += size) {
         chunked_array.push(array.slice(i, i + size))
