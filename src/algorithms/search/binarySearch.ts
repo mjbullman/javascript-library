@@ -1,11 +1,18 @@
 /**
- * Performs a binary search on a sorted array.
- *
- * @param value - The value to search for.
- * @param array - A sorted array of values.
- * @returns The index of `value` in the array, or -1 if not found.
+ * Binary Search Algorithm
+ * 
+ * Finds the position of a target value in a sorted array using binary search.
+ * Repeatedly divides the search interval in half by comparing the target with 
+ * the middle element.
+ * 
+ * Time Complexity: O(log n)
+ * Space Complexity: O(1)
+ * 
+ * @param value - The target value to search for
+ * @param array - The sorted array to search in
+ * @returns The index of the target value, or -1 if not found
  */
-export function binarySearch<T>(value: T, array: T[]): number {
+ export function binarySearch<T>(value: T, array: T[]): number {
     let low: number = 0
     let high: number = array.length - 1
 
