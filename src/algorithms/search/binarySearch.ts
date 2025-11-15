@@ -12,7 +12,7 @@
  * @param array - The sorted array to search in
  * @returns The index of the target value, or -1 if not found
  */
- export function binarySearch<T>(value: T, array: T[]): number {
+export function binarySearch<T>(value: T, array: T[]): number {
     let low: number = 0
     let high: number = array.length - 1
 
@@ -20,7 +20,7 @@
         const mid: number = Math.floor((low + high) / 2)
 
         if (array[mid] == value) {
-            return mid 
+            return mid
         }
         else if (array[mid] < value) {
             low = mid + 1
@@ -33,5 +33,3 @@
 
     return -1
 }
-
-

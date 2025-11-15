@@ -1,4 +1,3 @@
-
 /**
  * Bubble Sort Algorithm
  * 
@@ -19,8 +18,8 @@
  * @returns The sorted array
  */
 export function bubbleSort<T>(data: T[], compareFn: (a: T, b: T) => number): T[] {
-    let length: number = data.length
     let swapped: boolean
+    const length: number = data.length
 
     do {
         swapped = false
